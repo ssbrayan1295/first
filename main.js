@@ -12,3 +12,11 @@ function multiplicacion(a,b){
 function division(a,b){
     return a/b;
 }
+function potencia(a,b){
+    var pot=1;
+    while(b>=0){
+        pot*=a;
+        b--;
+    }
+    return pot;
+}
