@@ -10,7 +10,12 @@ function multiplicacion(a,b){
     return a*b;
 }
 function division(a,b){
+    if(b==0){
+        return -1;
+    }
     return a/b;
+    
+    
 }
 function potencia(a,b){
     var pot=1;
