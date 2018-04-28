@@ -20,3 +20,6 @@ function potencia(a,b){
     }
     return pot;
 }
+function raiz(a){
+    return Math.sqrt(a);
+}
